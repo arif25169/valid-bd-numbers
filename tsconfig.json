@@ -1,0 +1,42 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": "./",
+        "outDir": "./dist",
+        "module": "commonjs",
+        "target": "es5",
+        "declaration": true,
+        "moduleResolution": "node",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "isolatedModules": false,
+        "allowUmdGlobalAccess": true,
+        "removeComments": false,
+        "strict": true,
+        "esModuleInterop": true,
+        "importHelpers": true,
+        "alwaysStrict": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "pretty": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "noImplicitReturns": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "disableSizeLimit": true,
+        "sourceMap": false
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
